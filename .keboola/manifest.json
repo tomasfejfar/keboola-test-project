@@ -35,5 +35,13 @@
       "path": "main"
     }
   ],
-  "configurations": []
+  "configurations": [
+    {
+      "branchId": 119111,
+      "componentId": "ex-generic-v2",
+      "id": "36366661",
+      "path": "extractor/ex-generic-v2/wiki",
+      "rows": []
+    }
+  ]
 }
