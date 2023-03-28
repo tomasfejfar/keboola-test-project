@@ -6,6 +6,8 @@ env:
   KBC_STORAGE_API_TOKEN: ${{ secrets.KBC_STORAGE_API_TOKEN }}
 jobs:
   kbc_pull:
+    permissions:
+      contents: write
     # Automatic pull can be canceled by push
     concurrency:
      group: main_branch
